@@ -1,5 +1,5 @@
 import os 
-from listagem_eventos_atuais import listar_eventos
+from code.listagem_eventos_atuais import listar_eventos
 
 def localizar_id_evento_deletar(service):
     """
