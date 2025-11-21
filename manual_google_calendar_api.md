@@ -141,7 +141,7 @@ Após gerar o *token.json*, os módulos da API podem ser utilizados normalmente 
 3.  Clique em **Publicar aplicativo / Mudar para produção** (print_9)
 
 - Se o projeto estiver marcado como "Em Produção", não é necessário adicionar usuários teste, basta rodar a autenticação normalmente. 
-- Porém, nesse caso, ao tentar autenticar um email novo, ele vai avisar que o aplicativo ainda não foi verificado formalmente pela Google, indicando o email do desenvolvedor. 
+- Porém, nesse caso, ao tentar autenticar um email novo, ele vai avisar que o aplicativo ainda não foi verificado formalmente pela Google, indicando o email do desenvolvedor (print_10)
 - É possível autorizar mesmo assim e usar as funções do código base do Andrei. 
 
 ### Observações:
