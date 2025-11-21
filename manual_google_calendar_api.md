@@ -79,6 +79,7 @@ Para permitir que usuários autentiquem durante o modo "Teste":
 Use o código base abaixo para iniciar o fluxo OAuth2 e gerar o arquivo **token.json**:
 
 ============== Código =============
+
     import os
     from googleapiclient.discovery import build
     from google.auth.transport.requests import Request
@@ -104,6 +105,7 @@ Use o código base abaixo para iniciar o fluxo OAuth2 e gerar o arquivo **token.
             token.write(credenciais_usuario.to_json())
 
     service = build("calendar", "v3", credentials=credenciais_usuario)
+    
 ============== Fim do Código =============
 
 ### Funcionamento:
