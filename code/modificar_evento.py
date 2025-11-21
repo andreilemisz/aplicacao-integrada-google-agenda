@@ -66,7 +66,7 @@ def modificar_evento(service):
         service: Serviço autenticado do Google Calendar para fazer chamadas à API.
         
     Funcionamento:
-        1. Localiza o ID do evento a ser modificado.
+        1. Localiza o evento pelo seu ID.
         2. Coleta os novos detalhes do evento.
         3. Atualiza o evento no Google Calendar usando a API.
         4. Se ocorrer um erro (por exemplo, formato incorreto), informa o usuário e pergunta se ele quer tentar novamente ou voltar a interface inicial do programa.
